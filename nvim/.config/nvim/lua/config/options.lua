@@ -17,3 +17,4 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
+vim.opt.foldenable = false
