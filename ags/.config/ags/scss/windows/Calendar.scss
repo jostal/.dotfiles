@@ -1,0 +1,44 @@
+.calendarContainer {
+  background-color: $bgLighter;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.clockBox {
+  padding-bottom: 0.5rem;
+  .clock {
+    font-size: 3rem;
+  }
+}
+
+.calendar {
+	background: $bg;
+	border-radius: 20px;
+	padding: 20px;
+  min-width: 275px;
+
+	calendar {
+		&:selected {
+			background: $primary;
+			color: $primaryText;
+      border-radius: 50%;
+		}
+
+		&.header {
+			background-color: transparent;
+			border: none;
+			// color: transparentize($fg-color, 0.5);
+		}
+
+		&.highlight {
+			padding: 40px;
+			// color: transparentize($accent, 0.5);
+		}
+
+    &:indeterminate {
+      color: $textDim;
+    }
+
+		font-size: 1.1em;
+	}
+}

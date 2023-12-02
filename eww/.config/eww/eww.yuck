@@ -1,0 +1,10 @@
+(include "./vars/vars.yuck")
+(include "./widgets/indicators.yuck")
+(include "./widgets/control_center.yuck")
+(include "./widgets/volume.yuck")
+(include "./widgets/topbar.yuck")
+(include "./widgets/closer.yuck")
+(include "./widgets/clock.yuck")
+
+(include "./windows/topbar.yuck")
+(include "./windows/control_center.yuck")

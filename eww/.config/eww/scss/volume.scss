@@ -1,0 +1,67 @@
+.volume-control-center {
+  font-size: 1.6rem;
+  min-width: 25rem;
+}
+
+.volume-scale {
+  min-height: 1rem;
+}
+
+.volume-scale slider {
+  min-width: 0.8rem;
+  min-height: 0.8rem;
+  border-radius: 50%;
+  background-color: $gre;
+}
+
+.volume-scale trough {
+  background-color: $blue;
+  border-radius: 1rem;
+  min-height: 0.8rem;
+}
+
+.volume-scale trough highlight {
+  background-color: $orange;
+  min-height: 0.8rem;
+  border-radius: 1rem;
+}
+
+.volume-icon {
+  margin-right: 0.5rem; 
+}
+
+.volume-arrow {
+  color: $orange;
+  margin-left: 0.8rem;
+  font-size: 2rem;
+  min-width: 2.25rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+}
+
+.volume-arrow:hover {
+  background-color: mix($blue, $gre, 70%);
+}
+
+.volume-mute {
+  background-color: $blue_variant;
+  color: $gre;
+  margin-left: 0.5rem;
+  min-width: 2.25rem;
+  border-radius: 2rem;
+  transition: 0.3s;
+
+  &.active {
+    background-color: $orange;
+    color: $gre;
+  }
+
+  &.active:hover {
+    background-color: mix($orange, $gre, 70%);
+  }
+}
+
+.volume-mute:hover {
+  background-color: mix($blue_variant, $gre_variant, 70%);
+}
+

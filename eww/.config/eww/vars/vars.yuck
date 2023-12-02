@@ -1,0 +1,5 @@
+(defvar ANIM_DURATION "500ms")
+
+(defvar open_control_center false)
+(defvar open_osd false)
+(deflisten volume :initial "0" "~/.dotfiles/eww/.config/eww/scripts/volume.sh")

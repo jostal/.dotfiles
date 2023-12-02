@@ -18,4 +18,3 @@ return {
     opts = { options = { "buffers,curdir,folds,help,tabpages,terminal,globals" } },
   },
 }
-

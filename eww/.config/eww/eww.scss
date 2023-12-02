@@ -1,0 +1,13 @@
+@import "scss/colors.scss";
+@import "scss/control_center.scss";
+@import "scss/indicators.scss";
+@import "scss/topbar.scss";
+@import "scss/volume.scss";
+
+* {
+  all: unset;
+}
+
+window {
+  background: transparent;
+}

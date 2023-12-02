@@ -50,9 +50,3 @@ blur = true
 [window.padding]
 x = 5
 y = 0
-
-[keyboard]
-bindings = [
-  { key = "c", mods = "Control", action = "Copy" },
-  { key = "v", mods = "Control", action = "Paste" }
-]

@@ -10,8 +10,8 @@ else
   echo 'Could not find apt or pacman'
 fi
 
-PACKAGES_PAC=("stow" "git" "neovim" "zsh")
-PACKAGES_APT=("stow" "git" "neovim" "zsh")
+PACKAGES_PAC=("stow" "git" "neovim" "zsh" "rofi")
+PACKAGES_APT=("stow" "git" "neovim" "zsh" "rofi")
 
 # Install when using pacman
 if [ $PM == pacman ]; then

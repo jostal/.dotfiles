@@ -1,0 +1,7 @@
+(defwidget topbar []
+  (box :class "bar-widget" :orientation "h" :space-evenly true
+    (box :orientation "h" :space-evenly false :halign "end"
+      (indicators)
+    )
+  )
+)

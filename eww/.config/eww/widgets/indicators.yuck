@@ -1,0 +1,25 @@
+(defwidget indicators []
+  (button :onclick "scripts/toggle_control_center.sh toggle" :class "indicators"
+    (box :orientation "h" :space-evenly false
+      (box :orientation "h" :class "controls"
+        (volume_icon)
+      )
+      (clock)
+    )
+  )
+)
+
+(defwidget state_icon [condition text]
+  (label :class "indicator-icon" 
+         :visible {condition} 
+         :valign "center"
+         :text {text}
+         :tooltip {volume})
+)
+
+(defwidget volume_icon []
+  (state_icon :condition true
+              :text { volume == "muted" ? "󰸈" : volume < 33 ? "" : volume < 67 ? "" : "" }
+  )
+)
+

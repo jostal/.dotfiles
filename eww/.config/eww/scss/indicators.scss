@@ -1,0 +1,28 @@
+.indicators {
+  background-color: $blue;
+  color: $gre;
+  border-radius: 1rem;
+  border: 2px solid $bor;
+  padding: 0.4rem 1rem;
+}
+
+.controls {
+  background-color: $blue_variant;
+  padding: 0 0.5rem;
+  border-radius: 0.8rem;
+  transition: 0.3s;
+}
+
+.indicator-icon {
+  margin: 0 0.35rem;
+  font-size: 1.6rem;
+}
+
+.indicators:hover {
+  background-color: $blue_variant;
+}
+
+.clock {
+  font-size: 16px;
+  margin-left: 8px;
+}

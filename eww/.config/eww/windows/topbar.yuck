@@ -1,0 +1,11 @@
+(defwindow topbar
+  :monitor 0
+  :geometry (geometry :width "99%"
+                      :y "5px"
+                      :anchor "top center")
+  :stacking "fg"
+  :focusable false
+  :exclusive true
+  :namespace "eww"
+  (topbar)
+)
